@@ -3,18 +3,16 @@
 #define PRECO_INICIAL 100
 // O preço inicial do produto é 100 reais.
 
-#define ICMS 0.17f * PRECO_INICIAL
-#define COFINS 0.076f * PRECO_INICIAL
-#define PIS_PASEP 0.165f * PRECO_INICIAL
+#define ICMS 0.17
+#define COFINS 0.076
+#define PISPASEP 0.165
 
 int main() {
 
-float impostos = ICMS + COFINS + PIS_PASEP;
-float preco_total = impostos + PRECO_INICIAL;
+float impostos = (ICMS + COFINS + PISPASEP) * PRECO_INICIAL;
 
-printf("Após tributar o seu produto, o preço total dele é de %f\n", preco_total);
+printf("Após tributar o seu produto, o preço total dele é de %f\n", impostos);
 
-  
   return 0;
 }
 
