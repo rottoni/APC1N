@@ -10,6 +10,6 @@ int main() {
 
 /*
 Autor: Rafael Games Ramos
-Programa revolucionario que diz "Hello World"
+Programa revolucionario que diz "Hello World" e informa a raíz quadrada de 2.
 Data: 23/08/23
 */
