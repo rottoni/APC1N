@@ -16,7 +16,7 @@ int main() {
   double duplo; // ocupa 8 bytes; guarda valores fracionados de até 16 casas decimais; ex: 0.1234567890123456
       long double duplo_longo; //ocupa 16 bytes; guarda valores fracionados até 32 casas decimais
 
-  void nada; // ocupa 1 byte; guarda nenhuma informação, mas deve ser informado
+  void "nada"; // ocupa 1 byte; guarda nenhuma informação, mas deve ser informado
 
 
 
